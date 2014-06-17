@@ -1,0 +1,44 @@
+THINGS TO DO
+---------------------
+*testing in javascript
+*debug pawns moves
+*check; checkmates
+*castling
+
+
+
+
+
+
+
+CHECK / CHECKMATE
+---------------------------
+*determine possibilities and check to see if king is one of them - if so, that is a check
+*if king is check then king is only active piece on the next turn
+*get all possibilities for all pieces of opposing color (these mark the places where the king cannot go)
+
+
+
+
+QUESTIONS
+-------------------
+What is the difference between on page load AND on document ready? (on page load has something to do with the problem of turbo links)
+
+
+
+
+
+
+
+THOUGHTS
+--------------------------------------------------
+There is a lot of stuff that I already did for the completion of this project. But as I revist a few weeks later after we all compelted our final projects I am realizing that I have forgotten many of things that Matt Berns and I did on the project. I am knowing now that perhaps when you go back you do not need to learn everything. You need to have goals that you set out for yourself and decide to learn what you need to pursue the next goal. How do I do something like that. I think do that you need to set some goals for what you want to accomplish.
+
+For example, I want to write tests in javascript. Now think - what do I need to do to be able to accomplish that? I need to reed the jasmine docs and then find a way to integrate it into the rails file that I am currently using.
+
+
+THINGS I HAVE LEARNED
+-------------------------------------
+Look up words that you don't know so that you can understand what you are doing.
+
+Spring is a gem that is a "preloader" which lets your app run faster and in the background

@@ -1,0 +1,129 @@
+html {
+    background: #4B475A;
+    color: #817999;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 3px;
+    margin: 0px;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+#white-dead{
+    height: 400px;
+    width: 200px;
+    border: 1px solid black;
+    float: left;
+    margin-top: 50px;
+    background-color: #bfb630;
+}
+
+#black-dead{
+    height: 400px;
+    width: 200px;
+    border: 1px solid black;
+    float: right;
+    margin-top: 50px;
+    background-color: #bfb630;
+}
+
+#white_dead div{
+    width: 50px;
+    height: 50px;
+}
+
+#black_dead div{
+    width: 50px;
+    height: 50px;
+}
+
+
+
+#board {
+    margin-left: 28%;
+    height: 400px;
+    width: 400px;
+    display: inline-block;
+    position: absolute;
+    /*box-shadow: 3px 0px 1px 1px #373442;*/
+}
+
+#board .column {
+    height: 50px;
+    width: 50px;
+    background: #A198C0;
+    float: left;
+    font-size: 45px;
+}
+
+#board .column.dark {
+    background: #B7ACD9;
+}
+
+#board .column div {
+    height: 50px;
+    width: 50px;
+}
+
+.WHITE_KING {
+    background: url('../images/wKing.png');
+}
+
+.WHITE_QUEEN {
+    background: url('../images/wQueen.png');
+}
+
+.WHITE_ROOK {
+    background: url('../images/wRook.png');
+}
+
+.WHITE_BISHOP {
+    background: url('../images/wBishop.png');
+}
+
+.WHITE_KNIGHT {
+    background: url('../images/wKnight.png');
+}
+
+.WHITE_PAWN {
+    background: url('../images/wPawn.png');
+}
+
+
+.BLACK_KING {
+    background: url('../images/bKing.png');
+}
+
+.BLACK_QUEEN {
+    background: url('../images/bQueen.png');
+}
+
+.BLACK_ROOK {
+    background: url('../images/bRook.png');
+}
+
+.BLACK_BISHOP {
+    background: url('../images/bBishop.png');
+}
+
+.BLACK_KNIGHT {
+    background: url('../images/bKnight.png');
+}
+
+.BLACK_PAWN {
+    background: url('../images/bPawn.png');
+}
+/*removed the column and board classes from all the chess pieces*/
+
+#board .column .EMPTY {
+    background: none;
+}
+.column.possibleLocations{
+    background-color: yellow !important;
+}
